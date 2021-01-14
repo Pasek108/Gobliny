@@ -1,0 +1,134 @@
+html {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    max-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+canvas {
+    display: none;
+    cursor: none;
+}
+
+#tablica {
+    font-size: 1rem;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+    margin: 0;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-weight: 500;
+}
+
+#postacie {
+    display: grid;
+    grid-gap: 1rem 1rem;
+    grid-template-columns: auto auto auto auto;
+    padding: 2rem 6rem;
+}
+
+.bohater {
+    width: 8.346vw;
+    height: 7.321vw;
+    background-color: white;
+    margin: auto;
+}
+
+.bohater:hover {
+    cursor: pointer;
+}
+
+#rycerz1 {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz2 {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz3 {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz4 {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz5 {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz6 {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz7 {
+    background-image: url('obrazki/Bohater7.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+#rycerz8 {
+    background-image: url('obrazki/Bohater8.png');
+    background-size: 400%;
+    background-position: 67% 0;
+}
+
+.wybrana {
+    background-image: url('obrazki/Bohater6.png');
+    background-size: 400%;
+    background-position: 67% 0;
+    width: 8.346vw;
+    height: 7.321vw;
+    background-color: white;
+    margin: 2rem auto;
+}
+
+#start {
+    text-align: center;
+    margin: auto;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 1600px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    html {
+        font-size: 22px;
+    }
+}
