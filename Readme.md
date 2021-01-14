@@ -11,7 +11,7 @@
 
 
 ## Informacje
-Początokow gra powstała jako zadanie domowe w canvasie, nie wiem skąd wziąłem na nią pomysł. Celem gry jest przetrwanie jak największej ilości fal goblinów, z każdą falą goblinów jest więcej i biegną coraz szybciej, gra za każdym razem wygląda podobnie. Gra jest domyślnie przeznaczona na monitory w rozdzielczości 16:9.
+Początkowo gra powstała jako zadanie domowe w canvasie, nie wiem skąd wziąłem na nią pomysł. Celem gry jest przetrwanie jak największej ilości fal goblinów, z każdą falą goblinów jest więcej i biegną coraz szybciej, gra za każdym razem wygląda podobnie. Gra jest domyślnie przeznaczona na monitory w rozdzielczości 16:9.
 
 
 ## Screeny
