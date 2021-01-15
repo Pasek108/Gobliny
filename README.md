@@ -39,6 +39,7 @@ Gotowe:
 Do zrobienia:
 * Obrazki innych bohaterów
 * Odblokowywanie bohaterów za liczbę zabitych goblinów
+* Użycie Web Workerów
 
 
 ## Status
