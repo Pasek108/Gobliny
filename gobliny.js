@@ -122,6 +122,11 @@ let Pgoblin = [],
     ktoryP = 0,
     ktoryL = 0;
 
+window.addEventListener("click", (e) => {
+    if (e.clientX < szerokosc / 2) strona = 0;
+    else strona = 1;
+});
+
 document.addEventListener('keydown', klawisz, true);
 
 let enter = 0,
