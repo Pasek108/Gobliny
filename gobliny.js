@@ -123,7 +123,7 @@ let Pgoblin = [],
     ktoryL = 0;
 
 window.addEventListener("touchstart", (e) => {
-    if (e.clientX < szerokosc / 2) strona = 0;
+    if (e.touches[0].clientX < szerokosc / 2) strona = 0;
     else strona = 1;
 });
 
